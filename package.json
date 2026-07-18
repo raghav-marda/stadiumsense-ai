@@ -1,0 +1,30 @@
+{
+  "name": "stadiumsense-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StadiumSense AI — GenAI-powered stadium operations & fan experience platform for FIFA World Cup 2026 (PromptWars Challenge 4)",
+  "author": "Raghav Marda",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.5",
+    "prettier": "3.3.3"
+  }
+}
